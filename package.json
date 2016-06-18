@@ -1,0 +1,30 @@
+{
+  "name": "dokku-talk",
+  "version": "1.0.0",
+  "description": "A dokku test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekstavis/dokku-talk.git"
+  },
+  "keywords": [
+    "dokku",
+    "nodejs",
+    "deploy",
+    "talk",
+    "mettup"
+  ],
+  "author": "Derek Stavis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekstavis/dokku-talk/issues"
+  },
+  "homepage": "https://github.com/derekstavis/dokku-talk#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
